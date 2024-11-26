@@ -6,9 +6,9 @@
     font-family: 'Arial', sans-serif;
 }
 
-/* Fondo global con un fondo degradado suave */
+
 body {
-    background: linear-gradient(135deg, #4B0082, #F2F2F2); /* Fondo degradado de azul morado a beige */
+    background: linear-gradient(135deg, #4B0082, #F2F2F2); 
     color: #fff; /* Texto en blanco */
     height: 100%;
     font-size: 16px;
@@ -19,11 +19,10 @@ body {
     position: relative;
 }
 
-/* Barra de navegación */
 header {
-    background-color: rgba(0, 0, 0, 0.8); /* Fondo negro semitransparente */
+    background-color: rgba(0, 0, 0, 0.8); 
     padding: 20px 0;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
 header nav ul {
@@ -46,35 +45,33 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #9B1B30; /* Granate (rojo oscuro) */
+    color: #9B1B30; 
 }
 
-/* Sección hero */
 .hero {
     text-align: center;
-    background-color: rgba(75, 0, 130, 0.8); /* Fondo azul morado oscuro */
+    background-color: rgba(75, 0, 130, 0.8); 
     padding: 50px 20px;
     border-radius: 10px;
     margin-top: 20px;
 }
 
 .hero h1 {
-    color: #fff; /* Texto blanco */
+    color: #fff; 
     font-size: 36px;
     margin-bottom: 10px;
 }
 
 .hero p {
-    color: #fff; /* Texto blanco */
+    color: #fff; 
     font-size: 20px;
 }
 
-/* Sección de productos */
 #productos h2 {
     text-align: center;
     font-size: 36px;
     margin: 40px 0;
-    color: #9B1B30; /* Granate (rojo oscuro) */
+    color: #9B1B30; 
 }
 
 .productos-lista {
